@@ -1,0 +1,25 @@
+@media screen and (max-width:478px) {
+    .sub{
+        width: 350px;
+    }
+   
+    h1{
+        font-size: 1.2rem;
+        width: -moz-fit-content;
+        width: fit-content;
+    }
+    .chat{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .first{
+        width: 200px;
+        
+    }
+    .second{
+        margin-left: 110px;
+        width: 200px;
+    }
+    
+
+}

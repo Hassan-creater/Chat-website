@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
+
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Dosis", sans-serif;
+}
+
+html,body{
+    width: 100%;
+    height: 100vh;
+}
+
+
+.main{
+    width: 100%;
+    height: 100%;
+    background:linear-gradient(45deg,rgb(128, 0, 128),black);
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    position: relative;
+}
+
+.sub{
+    width: 500px;
+    height: calc(100vh - 150px);
+   border-radius: 20px;
+}
+
+
+
+
+.chat{
+    margin-top: 20px;
+    width: 100%;
+    height:calc(100vh - 290px) ;
+    background-color: rgba(170, 165, 165,0.4);
+    border-radius: 20px;
+    padding-top:30px ;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: 5px 5px 30px rgba(248, 177, 44,0.4);
+   
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+.first{
+   width: 40%;
+   border-radius: 5px;
+   padding-left: 10px; 
+   border: 1.5px solid rgb(228, 166, 51);
+   color: white;
+   font-weight: 600;
+}
+.second{
+    
+    width: 40%;
+    margin-left: 250px;
+   border: 1.5px solid orange;
+    border-radius: 5px;
+    padding-left: 10px;
+     color: white;
+    font-weight: 600; 
+    
+}
+
+.message,.message2{
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#text,#text2{
+    width: 70%;
+    height: 80%;
+    border: none;
+    outline: none;
+    padding-left: 20px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    border-radius: 10px;
+}
+#text:focus{
+    border: 2.5px solid rgb(240, 162, 17);
+    box-shadow: 3px 3px 15px rgb(245, 174, 42);
+}
+#btn3,#btn2{
+    width: 20%;
+    height: 80%;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight:bolder;
+    background-color: rgb(250, 171, 24);
+}
+#btn3:hover,#btn2:hover{
+    border: 2.5px solid rgb(243, 168, 31);
+    color: rgb(250, 167, 12);
+    background-color: transparent;
+    box-shadow: 3px 3px 15px rgb(245, 174, 42);
+}
+
+
+h1{
+    position: absolute;
+    top:50px;
+    color: rgb(249, 249, 249);
+    text-shadow: 10px 0px 20px rgb(247, 189, 83);
+}
